@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<title>File Compressor</title>
+
+	<!-- Stylesheets -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel='stylesheet' href='styles.css'>
+
+<body>
+<div class="main" style="position:relative;">
+	   </div>
+		<div class=container-fluid>		
+			<div id="bounce">
+        <span class="letter">T</span>
+        <span class="letter">E</span>
+        <span class="letter">X</span>
+        <span class="letter">T</span>
+        <span class="letter"></span>
+        <span class="letter"></span>
+        <span class="letter">C</span>
+        <span class="letter">O</span>
+        <span class="letter">M</span>
+        <span class="letter">P</span>
+        <span class="letter">R</span>
+        <span class="letter">E</span>
+        <span class="letter">S</span>
+        <span class="letter">S</span>
+        <span class="letter">O</span>
+        <span class="letter">R</span>
+        </div>
+        <h6 style="color:white;font-size: 100%;"id="heading"><div>This is a tool where you can 
+        	<span style="font-size:180%;"class="letter">compress</span> your text or <span style="font-size:180%;"class="letter">decompress</span> your compressed file.</br>It uses <span style="font-size:200%;"class="letter"> a Coding Algorithm.</span></div></h6>
+			<div class="card" id="step1">
+				<h2>Upload a Text File</h2>
+				<center>
+					<i class="far fa-file-alt fa-5x"></i>
+					<br>
+					<input class="btn btn-outline-warning" type="file" id="uploadfile"><br>
+					<input class="btn btn-outline-success" type="button" id="submitbtn" value="Submit">
+				</center>
+			</div>
+			<div class="card" id="step2">
+				<h2>Select Action</h2><center>
+				<i class="far fa-file-archive fa-5x"></i>
+				<br>
+				<button type="button" id="encode" class="btn btn-primary" >Compress</button>
+				<button type="button" id="decode" class="btn btn-primary" >De-Compress</button></center>
+			</div>
+			<div class="card" id="step3"></div>
+			<button id="startagain" style="background-color: #bf3a30;
+background-image: linear-gradient(315deg, #bf3a30 0%, #864ba2 74%);"class="btn btn-info btn-lg" type="button" onclick="location.reload()" >Click here to compress/decompress the file</button>
+		 </div>
+	
+
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	<script src='script.js'></script>   
+	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</div>
+</body>
+</head>
+</html>
